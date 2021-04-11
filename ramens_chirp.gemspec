@@ -3,12 +3,12 @@ require_relative 'lib/ramens_chirp/version'
 Gem::Specification.new do |spec|
   spec.name          = "ramens_chirp"
   spec.version       = RamensChirp::VERSION
-  spec.authors       = ["Ayaka Moronaga"]
-  spec.email         = ["a.moronaga@everyleaf.com"]
+  spec.authors       = ["ayaka-ramens"]
+  spec.email         = ["sazanami8menma8negi@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ramens_chirp}
+  spec.description   = %q{ramens_chirp gem is birds chirp to someone}
+  spec.homepage      = "https://github.com/ayaka-ramens/ramens_chirp.git"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
