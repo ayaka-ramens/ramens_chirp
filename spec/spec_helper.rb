@@ -1,5 +1,11 @@
+require 'simplecov'
+SimpleCov.start 'rails'
 require "bundler/setup"
 require "ramens_chirp"
+
+SimpleCov.start do
+  add_filter ['/lib/ramens_chirp/version.rb']
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
